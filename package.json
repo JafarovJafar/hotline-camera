@@ -1,0 +1,14 @@
+{
+  "name": "jaf.shafir.hotline-camera",
+  "version": "1.0.0",
+  "displayName": "Hotline Camera",
+  "description": "Hotline Miami inspired camera",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/JafarovJafar/Hotline-Camera/blob/main/README.md",
+  "author": {
+    "name": "Jafarov Jafar",
+    "email": "jafarovja@yandex.ru",
+    "url": "https://github.com/JafarovJafar"
+  }
+}

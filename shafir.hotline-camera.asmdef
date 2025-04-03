@@ -1,0 +1,17 @@
+{
+    "name": "Shafir.Core.TopDownCamera",
+    "rootNamespace": "Shafir.HotlineCameraSpace",
+    "references": [
+        "Shafir.StateMachine",
+        "Shafir.Core.Utilities"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
