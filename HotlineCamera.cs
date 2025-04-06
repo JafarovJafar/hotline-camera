@@ -6,7 +6,7 @@ namespace Shafir
 {
     public class HotlineCamera : MonoBehaviour
     {
-        public HotlineCameraInput Input => _input;
+        public CameraInput Input => _input;
         public float Zoom => Mathf.Abs(zoomDummy.localPosition.z);
         public Vector3 Position => horRotDummy.position;
 
@@ -15,18 +15,18 @@ namespace Shafir
         [SerializeField] private Transform zoomDummy;
         [SerializeField] private Camera mainCamera;
 
-        private HotlineCameraInput _input;
+        private CameraInput _input;
 
         private TickableStateMachine _stateMachine;
-        private HotlineCameraContext _context;
+        private Context _context;
         private HotlineCameraNormalState _normalState;
         private HotlineCameraFocusState _focusState;
 
         public void Initialize()
         {
-            _input = new HotlineCameraInput();
+            _input = new CameraInput();
 
-            _context = new HotlineCameraContext()
+            _context = new Context()
             {
                 Input = _input,
                 HorRotDummy = horRotDummy,

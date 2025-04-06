@@ -2,9 +2,9 @@
 
 namespace Shafir.HotlineCameraSpace
 {
-    internal class HotlineCameraContext
+    internal class Context
     {
-        public HotlineCameraInput Input;
+        public CameraInput Input;
         public Transform Target;
         public Transform HorRotDummy;
         public Transform VertRotDummy;

@@ -1,5 +1,5 @@
 {
-    "name": "Shafir.Core.TopDownCamera",
+    "name": "Shafir.HotlineCamera",
     "rootNamespace": "Shafir.HotlineCameraSpace",
     "references": [
         "Shafir.StateMachine",

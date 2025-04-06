@@ -5,7 +5,7 @@ namespace Shafir.HotlineCameraSpace
     /// <summary>
     /// Плавно двигает камеру к целевой позиции
     /// </summary>
-    internal class HotlineCameraLerper : MonoBehaviour
+    internal class Lerper : MonoBehaviour
     {
         [SerializeField] private Transform cameraTransform;
         [SerializeField] private Transform goalTransform;

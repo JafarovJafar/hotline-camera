@@ -2,7 +2,7 @@
 
 namespace Shafir.HotlineCameraSpace
 {
-    public class HotlineCameraInput
+    public class CameraInput
     {
         public Vector2 ViewportPos;
         public bool IsFocusPressed;

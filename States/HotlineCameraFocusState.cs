@@ -7,9 +7,9 @@ namespace Shafir.HotlineCameraSpace
     {
         public event Action Finished;
 
-        private HotlineCameraContext _context;
+        private Context _context;
 
-        public HotlineCameraFocusState(HotlineCameraContext context)
+        public HotlineCameraFocusState(Context context)
         {
             _context = context;
         }
