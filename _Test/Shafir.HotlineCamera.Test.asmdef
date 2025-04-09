@@ -1,0 +1,16 @@
+{
+    "name": "Shafir.HotlineCamera.Test",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5a2c541c01fc2c645be1017d2a5179d1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
