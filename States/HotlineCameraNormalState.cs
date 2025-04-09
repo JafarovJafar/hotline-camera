@@ -27,10 +27,7 @@ namespace Shafir.HotlineCameraSpace
                 return;
             }
 
-            var goalPos = _context.Target.position;
-            goalPos.y = 0f;
-
-            _context.HorRotDummy.position = goalPos;
+            _context.HorRotDummy.position = _context.Target.position;
         }
 
         public void Exit()
