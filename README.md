@@ -1,5 +1,7 @@
 # Hotline Camera
 
+![logo](logo.png)
+
 ___Камера, вдохновленная Hotline Miami___
 
 ## Основные сущности
