@@ -49,8 +49,11 @@ namespace Shafir
             enabled = true;
             _context.Target = target;
 
-            if (moveCameraImmediately)
-                mainCamera.transform.position = target.position;
+            if (moveCameraImmediately == false)
+                return;
+
+            horRotDummy.position = target.position;
+            mainCamera.transform.position = zoomDummy.position;
         }
 
         public void SetRange(float range)
