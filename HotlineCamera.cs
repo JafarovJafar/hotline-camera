@@ -44,10 +44,13 @@ namespace Shafir
             enabled = false;
         }
 
-        public void SetTarget(Transform target)
+        public void SetTarget(Transform target, bool moveCameraImmediately = false)
         {
             enabled = true;
             _context.Target = target;
+
+            if (moveCameraImmediately)
+                mainCamera.transform.position = target.position;
         }
 
         public void SetRange(float range)
